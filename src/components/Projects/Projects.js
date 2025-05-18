@@ -64,6 +64,7 @@ function Projects() {
               demoLink="https://parinayraya.netlify.app/" // replace with your actual live demo link
             />
           </Col>
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
