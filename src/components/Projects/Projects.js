@@ -7,7 +7,7 @@ import elebill from "../../Assets/Projects/Elebill.png";
 import atm from "../../Assets/Projects/ATM_Interface.png";
 import furniro from "../../Assets/Projects/Furniro.png";
 import portfolio from "../../Assets/Projects/Portfolio.png";
-import todolist from "../../Assets/Projects/TodoList.png";
+import Excelanalytics from "../../Assets/Projects/Excel_analytics.png"
 
 function Projects() {
   return (
@@ -78,11 +78,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={todolist}
+              imgPath={Excelanalytics}
               isBlog={false}
-              title="To-Do List App"
-              description="A simple and interactive To-Do List application built using React.js. Allows users to add, delete, and mark tasks as completed with a clean and responsive UI. Utilizes React hooks for state management and supports local storage to retain tasks between sessions."
-              ghLink="https://github.com/Parinay-raya/ToDo-List_React"
+              title="Excel Analytics"
+                description="An Excel Analytics dashboard that allows users to visualize, filter, and analyze data dynamically. Built using React.js with interactive charts, tables, and advanced data manipulation features to provide actionable insights."
+              ghLink="https://github.com/Parinay-raya/Excel_analytics"
               demoLink="https://parinay-todo-react.netlify.app/" 
             />
           </Col>
